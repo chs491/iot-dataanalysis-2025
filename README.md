@@ -321,6 +321,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 
 
 ### 딥러닝, 인공신경망
+- 인공신경망 : ANN(Artificial Neural Network)
 - 딥러닝 : 인간이 뇌를 모방하여 훈련시키는 머신러닝 기법
     - 이미지, 영상, 음성, 텍스트 처리에 뛰어난 성능 발휘
 
@@ -330,6 +331,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 - [노트북](./day04/mldl01_딥러닝_인공신경망.ipynb)
 
 ### 심층신경망
+- 심층신경망 : DNN(Deep Neural Network)
 - 2개 이상의 밀집층으로 구성된 인공신경망
 - 은닉층 : hidden layer. ReLU 활성화 함수 사용
 - 옵티마이저 : 신경망의 가중치, 절편을 제대로 학습하기 위한 알고리즘. Adam클래스 사용
@@ -341,7 +343,7 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 ## 5일차
 
 ### 합성곱 신경망
-- CNN(Convolution Neural Network)
+- 합성곱 신경망 : CNN(Convolution Neural Network)
     - 필터로 도장을 찍듯이 특성을 뽑아내어 사이즈를 줄여가며 훈련을 하는 신경망
 
     <img src = "./image/ml1012.png" width = "600">
@@ -371,9 +373,18 @@ sns.set_theme(font='Malgun Gothic', rc={'axes.unicode_minus': False})
 - 딥러닝 기본 신경망으로도 가능했음
 - 합성곱 신경망으로 훈련하고 예측하는 것이 좀 더 정확도 높음    
 
-- [노트북]()
+- [노트북](./day05/mldl01_케라스_합성곱신경망.ipynb)
 
-### 파이토치
+### 파이토치 맛보기
+- 파이토치 시작하기
+
+- [노트북](./day05/mldl02_파이토치시작.ipynb)
+
+## 6일차
+
+### 파이토치 기본학습
+
+### 파이토치 실습
 
 ### 토이프로젝트
 
